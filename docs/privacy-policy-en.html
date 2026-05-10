@@ -1,134 +1,149 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Privacy Policy — SeaPilotApp</title>
-<style>
-:root { color-scheme: light dark; }
-body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; margin: 0; }
-header { padding: 20px 16px; border-bottom: 1px solid rgba(127,127,127,.3); }
-main { max-width: 900px; margin: 0 auto; padding: 20px 16px 48px; }
-h1 { margin: 0 0 6px; font-size: 28px; }
-h2 { margin-top: 26px; font-size: 18px; }
-p, li { font-size: 15px; }
-.small { color: rgba(127,127,127,.95); font-size: 13px; }
-.lang { display:flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
-a.button { display:inline-block; padding: 10px 12px; border: 1px solid rgba(127,127,127,.5); border-radius: 12px; text-decoration: none; }
-a.button:hover { opacity: .9; }
-footer { border-top: 1px solid rgba(127,127,127,.3); padding: 16px; }
-code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.95em; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy for SeaPilotApp</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.55;
+            margin: 0;
+            padding: 18px;
+            color: #111827;
+            background: #ffffff;
+        }
+        h1, h2, h3 {
+            color: #0f172a;
+        }
+        h1 {
+            font-size: 1.45rem;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 1.15rem;
+            margin-top: 1.4rem;
+        }
+        h3 {
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+        p, li {
+            font-size: 0.95rem;
+        }
+        ul {
+            padding-left: 1.25rem;
+        }
+        strong {
+            font-weight: 700;
+        }
+    </style>
 </head>
 <body>
-<header>
-  <h1>Privacy Policy</h1>
-  <div class="small">SeaPilotApp • Effective date: 2026-05-10</div>
-  <div class="lang">
-    <a class="button" href="./privacy-policy-en.html" aria-current="page">English</a>
-    <a class="button" href="./privacy-policy-uk.html">Українська</a>
-  </div>
-</header>
-
-<main>
-  <p>This Privacy Policy explains how <strong>SeaPilotApp</strong> (“the app”) handles information.</p>
-
-  <h2>1. What the app does</h2>
-  <p>SeaPilotApp is a marine navigation companion app for Android. It can receive AIS/NMEA 0183 data over Wi-Fi TCP/UDP or Bluetooth, display AIS targets and vessel data, show the device GPS position, load offline map files, display online map layers, and provide route monitoring and navigation alarm functions.</p>
-
-  <p>SeaPilotApp is not a certified navigation system, not ECDIS, and not a replacement for official charts, approved bridge equipment, radar, AIS display, watchkeeping procedures or professional navigation judgement.</p>
-
-  <h2>2. Data the app processes on the device</h2>
-  <p>The app may process the following information locally on your device:</p>
-
-  <ul>
-    <li><strong>Location / GPS data</strong> — used to show the device position, speed, course and related navigation information. GPS data may also be used for route monitoring, anchor watch, GPS loss alarms and map display.</li>
-
-    <li><strong>AIS / NMEA 0183 data</strong> — received from your AIS/NMEA source over Wi-Fi TCP/UDP, Bluetooth, or test files. This data is used to show vessel targets, own ship information, navigation values and AIS/NMEA logs.</li>
-
-    <li><strong>Route and waypoint data</strong> — routes loaded by the user, including GPX / RTZ route files, waypoints, route legs, XTE corridors and route monitoring information, are processed locally on the device.</li>
-
-    <li><strong>Alarm and monitoring data</strong> — the app may process local alarm information such as route deviation, arrival to waypoint, waypoint passed, GPS loss, anchor watch and collision risk indications. This information is used to display alerts and notifications.</li>
-
-    <li><strong>Offline map files</strong> — offline map files such as MBTiles or Mapsforge maps are selected or imported by the user and used locally on the device.</li>
-
-    <li><strong>App settings and preferences</strong> — the app stores local settings such as connection settings, display preferences, map settings, alarm settings and route monitoring preferences.</li>
-
-    <li><strong>Saved logs</strong> — if you use the “Save log” feature, AIS/NMEA logs are stored locally on your device.</li>
-  </ul>
-
-  <h2>3. What the app collects and shares</h2>
-  <p>SeaPilotApp does <strong>not</strong> require a user account.</p>
-  <p>SeaPilotApp does <strong>not</strong> sell personal data.</p>
-  <p>SeaPilotApp does <strong>not</strong> upload your AIS stream, routes, offline map files, saved logs, or navigation data to a SeaPilotApp server.</p>
-  <p>Most navigation data is processed locally on the device.</p>
-
-  <h2>4. Firebase Crashlytics and diagnostic data</h2>
-  <p>The app may use <strong>Firebase Crashlytics</strong> to improve stability and diagnose crashes.</p>
-  <p>Crashlytics may collect and transmit technical diagnostic information to Firebase/Google, such as crash reports, stack traces, app version, operating system version, device model, device state and other technical crash diagnostics.</p>
-  <p>SeaPilotApp does not intentionally send AIS/NMEA content, routes, saved logs or precise GPS location to Crashlytics. However, diagnostic crash information is processed by Firebase/Google as a third-party service provider.</p>
-
-  <h2>5. Online maps and third-party map services</h2>
-  <p>If you enable online map layers, your device connects to the selected map or tile provider to download map tiles.</p>
-  <p>The selected provider may receive standard technical data such as your IP address, tile requests, request metadata and device/network information necessary to deliver map tiles.</p>
-  <p>Please review the privacy policy of the selected map provider.</p>
-  <p>Offline maps are stored and used locally on your device and must be downloaded or prepared by the user separately.</p>
-
-  <h2>6. Local network, Wi-Fi and Bluetooth connections</h2>
-  <p>If you connect to AIS/NMEA equipment over Wi-Fi TCP/UDP, the app communicates with the local network address and port selected by the user.</p>
-  <p>If you connect to AIS/NMEA equipment over Bluetooth, the app uses Bluetooth permissions to discover and connect to the selected compatible device.</p>
-  <p>The app does not use these connections to upload your navigation data to a SeaPilotApp server.</p>
-
-  <h2>7. Permissions</h2>
-  <p>The app may request the following permissions depending on the features you use:</p>
-
-  <ul>
-    <li><strong>Location</strong> — used to show GPS position and related navigation data, and to support route monitoring, anchor watch and GPS loss alarms.</li>
-
-    <li><strong>Nearby devices / Bluetooth</strong> — used to connect to Bluetooth AIS/NMEA gateways or pilot plug devices, if you use this mode.</li>
-
-    <li><strong>Network / Wi-Fi / Internet</strong> — used to connect to AIS/NMEA sources over TCP/UDP, access local network equipment, and load online map tiles when online map layers are enabled.</li>
-
-    <li><strong>Notifications</strong> — used to show navigation and alarm notifications, including route monitoring and critical alarm notifications.</li>
-
-    <li><strong>Files / document access</strong> — used to select, import or store user files such as offline maps, GPX / RTZ route files and saved AIS/NMEA logs.</li>
-
-    <li><strong>Vibration / sound</strong> — used for navigation alarm notifications when enabled.</li>
-  </ul>
-
-  <h2>8. Foreground service and navigation alarms</h2>
-  <p>SeaPilotApp may use a visible foreground service notification to support active navigation alarm monitoring and critical alarm sound while the user is actively using route monitoring or alarm functions.</p>
-  <p>This is used for navigation-related alerts such as route deviation, waypoint arrival, waypoint passed, GPS loss, anchor watch and collision risk indications.</p>
-  <p>The foreground service is shown to the user through a notification and is stopped when monitoring or the critical alarm function is stopped.</p>
-
-  <h2>9. Data retention</h2>
-  <p>Local app data remains on your device until you delete it, clear app storage or uninstall the app.</p>
-  <p>Saved logs, imported routes and offline map files remain on your device until you delete them from the app, from your device storage, or uninstall the app.</p>
-  <p>Crash reports collected by Firebase Crashlytics are retained according to Firebase/Google’s applicable data retention practices.</p>
-
-  <h2>10. How to delete data</h2>
-  <p>You can delete saved logs, route files and offline files from the app where available, or from your device storage.</p>
-  <p>You can also delete local app data by clearing the app’s storage in Android system settings.</p>
-  <p>Uninstalling the app removes app-managed local data from the device. Files stored outside the app’s private storage may need to be deleted manually by the user.</p>
-  <p>SeaPilotApp does not create user accounts, so there is no account deletion process.</p>
-
-  <h2>11. Children</h2>
-  <p>SeaPilotApp is not intended for children under 13.</p>
-
-  <h2>12. Security</h2>
-  <p>SeaPilotApp processes navigation data primarily on the device.</p>
-  <p>Online map tiles and Firebase Crashlytics diagnostic data may be transmitted over network connections to their respective providers.</p>
-  <p>You should only connect the app to AIS/NMEA sources, Bluetooth devices and network equipment that you trust.</p>
-
-  <h2>13. Changes to this Privacy Policy</h2>
-  <p>We may update this Privacy Policy from time to time. When changes are made, the effective date will be updated.</p>
-
-  <h2>14. Contact</h2>
-  <p>If you have questions about this Privacy Policy, contact: <a href="mailto:seapilotapp@gmail.com">seapilotapp@gmail.com</a>.</p>
-</main>
-
-<footer class="small">
-  <div>Last updated: 2026-05-10</div>
-</footer>
+<h1>Privacy Policy for SeaPilotApp</h1>
+<p><strong>Effective date:</strong> 11 May 2026  </p>
+<p><strong>Contact:</strong> seapilotapp@gmail.com</p>
+<p>This Privacy Policy explains how SeaPilotApp (“SeaPilotApp”, “the app”, “we”, “us”) handles information when you use the app.</p>
+<p>SeaPilotApp is a marine navigation companion app for Android. It can receive AIS/NMEA 0183 data over Wi‑Fi TCP/UDP, Bluetooth and local network connections, display AIS targets and vessel data, show the device GNSS/GPS position, load routes and offline map files, display online map and data layers, provide weather-related map data where available, and support route monitoring and navigation alarm functions.</p>
+<p>SeaPilotApp is not a certified navigation system, not ECDIS, and not a replacement for official nautical charts, approved bridge equipment, radar, AIS display, watchkeeping procedures, COLREGs, voyage planning requirements, or professional navigation judgement. The master and operator remain responsible for safe navigation.</p>
+<h2>1. Information processed on your device</h2>
+<p>SeaPilotApp is designed so that most operational navigation data is processed locally on your device. Depending on the features you use, the app may process the following information.</p>
+<h3>Location / GNSS / GPS data</h3>
+<p>The app may use device location to show own ship position, speed, course and related navigation information. Location data may also be used for map display, route monitoring, cross-track error calculations, arrival-to-waypoint indications, anchor watch, GPS loss alarms and other navigation-related functions.</p>
+<h3>AIS / NMEA 0183 data</h3>
+<p>The app may receive and process AIS/NMEA 0183 data from external equipment, including AIS receivers, AIS Pilot Plug devices, NMEA gateways or local test files. AIS/NMEA data may be received over Wi‑Fi TCP/UDP, Bluetooth or local network connections.</p>
+<p>This data is used to display AIS targets, own ship information, navigation aids, base stations, vessel names, MMSI numbers, call signs, positions, courses, speeds, headings, closest point of approach indicators, navigation values and AIS/NMEA logs.</p>
+<h3>Route and waypoint data</h3>
+<p>Routes loaded or created by the user, including GPX/RTZ route files, waypoints, route legs, XTE corridors, arrival radius settings and route monitoring state, are processed locally on the device.</p>
+<h3>Alarm and monitoring data</h3>
+<p>The app may process local alarm and monitoring information such as route deviation, arrival to waypoint, waypoint passed, GPS loss, anchor watch and collision risk indications. This information is used to display on-screen alerts, sound/vibration indications and notifications where enabled.</p>
+<h3>Map, chart and offline files</h3>
+<p>The app may use map files, chart-related files, MBTiles, Mapsforge maps, user-selected route files, saved logs and other files selected or imported by the user. These files are processed locally unless the user explicitly exports, shares or uploads them outside the app.</p>
+<h3>Weather and environmental data</h3>
+<p>Where weather features are available and enabled, the app may download, store and display weather or environmental data such as wind, pressure, temperature, wave or related forecast layers. Weather packs may be stored locally for offline or offline-first use.</p>
+<h3>App settings and preferences</h3>
+<p>The app stores local settings and preferences, such as connection settings, display preferences, map settings, route monitoring settings, alarm settings, weather settings and other UI/application preferences.</p>
+<h3>Saved logs</h3>
+<p>If you use a save/export log feature, AIS/NMEA logs or related diagnostic/navigation logs may be stored locally on your device.</p>
+<h2>2. Information collected or transmitted off the device</h2>
+<p>SeaPilotApp does not require a user account.</p>
+<p>SeaPilotApp does not sell personal data.</p>
+<p>SeaPilotApp does not upload your AIS stream, routes, offline map files, saved logs, or navigation data to a SeaPilotApp-owned server.</p>
+<p>However, some information may be transmitted to third parties when you use online features or when diagnostic/analytics services are enabled, as described below.</p>
+<h2>3. Firebase Crashlytics, Firebase Analytics and Google measurement services</h2>
+<p>SeaPilotApp may use Firebase services provided by Google, including Firebase Crashlytics and Firebase Analytics / Google measurement services, to improve app stability, understand general app usage and diagnose technical problems.</p>
+<h3>Crash reports and diagnostics</h3>
+<p>Firebase Crashlytics may collect and transmit technical diagnostic information to Firebase/Google, such as crash reports, stack traces, app version, operating system version, device model, device state, log messages, custom diagnostic keys and related runtime information.</p>
+<p>SeaPilotApp does not intentionally send AIS/NMEA message content, route files, saved logs or precise navigation position to Crashlytics. However, crash diagnostics are processed by Firebase/Google as a third-party service provider.</p>
+<h3>Analytics and measurement</h3>
+<p>Firebase Analytics / Google measurement services may collect app usage and technical measurement data, such as app launches, session information, app interactions, device and operating system information, app version, installation identifiers, app instance identifiers and related analytics metadata.</p>
+<p>Where available and permitted by the operating system and user settings, Google measurement services may access or process identifiers such as the Android Advertising ID and related Android advertising or attribution identifiers. SeaPilotApp includes Advertising ID / Ad Services permissions in the release build because Google measurement / Firebase Analytics components are integrated.</p>
+<p>SeaPilotApp does not use Firebase Analytics to intentionally upload your AIS stream, route files, saved logs, offline map files or precise navigation position to a SeaPilotApp-owned server. Analytics and measurement data are processed by Google/Firebase according to Google’s applicable terms and privacy practices.</p>
+<h2>4. Online maps, weather and third-party data providers</h2>
+<p>If you enable or use online map layers, online weather/data sources or other online services, your device connects to the selected provider to download the requested data.</p>
+<p>Depending on the enabled features and build configuration, such providers may include OpenStreetMap/OpenSeaMap, EMODnet/GEBCO bathymetry services, NASA GIBS, NOAA/NOMADS GFS, DWD ICON, MET Norway or other map, weather, satellite, bathymetry or environmental data providers.</p>
+<p>When these services are accessed, the provider may receive standard technical network information required to deliver the service, such as your IP address, tile/data requests, request metadata, timestamps, user agent, device/network information and the approximate map area or data area requested.</p>
+<p>Please review the privacy policy and terms of the selected third-party provider. SeaPilotApp does not control the privacy practices of third-party providers.</p>
+<p>Offline maps and downloaded packs are stored and used locally on your device unless you delete, export or share them.</p>
+<h2>5. Local network, Wi‑Fi and Bluetooth connections</h2>
+<p>If you connect SeaPilotApp to AIS/NMEA equipment over Wi‑Fi TCP/UDP, the app communicates with the local network address and port selected by the user.</p>
+<p>If you connect to AIS/NMEA equipment over Bluetooth, the app uses Bluetooth permissions to discover, pair with or connect to the selected compatible device.</p>
+<p>On Android versions that require local network or nearby-device permissions, the app may request those permissions to access local AIS/NMEA equipment.</p>
+<p>The app does not use these local network or Bluetooth connections to upload your navigation data to a SeaPilotApp-owned server.</p>
+<h2>6. Permissions</h2>
+<p>SeaPilotApp may request the following permissions depending on your Android version and the features you use.</p>
+<h3>Location</h3>
+<p>Used to show GNSS/GPS position and related navigation data, and to support map display, route monitoring, anchor watch and GPS loss alarms.</p>
+<h3>Nearby devices / Bluetooth</h3>
+<p>Used to discover and connect to Bluetooth AIS/NMEA gateways, Pilot Plug devices or other compatible external equipment.</p>
+<h3>Local network / Wi‑Fi / Internet</h3>
+<p>Used to connect to AIS/NMEA sources over TCP/UDP, access local network equipment, load online map tiles, download online data layers and retrieve weather/environmental data where enabled.</p>
+<h3>Notifications</h3>
+<p>Used to show navigation, route monitoring and alarm notifications, including critical alarm notifications.</p>
+<h3>Foreground service</h3>
+<p>Used to support visible active monitoring and critical alarm functions while the app is performing navigation-related monitoring.</p>
+<h3>Vibration / sound</h3>
+<p>Used for navigation alarm indications when enabled.</p>
+<h3>Files / document access</h3>
+<p>Used to select, import, store or export user files such as offline maps, route files, chart-related files, weather packs and saved logs.</p>
+<h3>Advertising ID / Ad Services identifiers</h3>
+<p>Used by integrated Google/Firebase analytics and measurement components where available and permitted. This is used for analytics, measurement, attribution or diagnostics according to the applicable Google/Firebase SDK behavior and platform rules.</p>
+<h2>7. Foreground service and navigation alarms</h2>
+<p>SeaPilotApp may use a visible foreground service notification to support active route/alarm monitoring and critical alarm sound while the user is actively using monitoring or alarm functions.</p>
+<p>This may be used for navigation-related alerts such as route deviation, waypoint arrival, waypoint passed, GPS loss, anchor watch and collision risk indications.</p>
+<p>The foreground service is shown to the user through a notification and is stopped when monitoring or the critical alarm function is stopped.</p>
+<h2>8. Data sharing</h2>
+<p>SeaPilotApp may share or transmit data in the following limited cases:</p>
+<ul>
+<li>to Firebase/Google for crash diagnostics, analytics and measurement as described above;</li>
+<ul>
+<li>to online map, weather, satellite, bathymetry or environmental data providers when you access their online services;</li>
+<ul>
+<li>when you explicitly export, save, share or send files/logs using Android system sharing or other apps;</li>
+<ul>
+<li>when required to operate local AIS/NMEA, Bluetooth or network connections selected by the user.</li>
+</ul>
+<p>SeaPilotApp does not sell personal data and does not operate a SeaPilotApp server for uploading your AIS stream, routes, saved logs or offline map files.</p>
+<h2>9. Data retention</h2>
+<p>Local app data remains on your device until you delete it, clear app storage or uninstall the app.</p>
+<p>Saved logs, imported routes, offline maps, chart-related files and weather packs remain on your device until you delete them from the app, from device storage, or uninstall the app. Files stored outside the app’s private storage may need to be deleted manually.</p>
+<p>Crash reports, diagnostics, analytics and measurement data processed by Firebase/Google are retained according to Google/Firebase’s applicable data retention practices and your applicable settings.</p>
+<p>Third-party map/weather/data providers retain request information according to their own privacy policies and retention practices.</p>
+<h2>10. How to delete or control data</h2>
+<p>You can delete saved logs, route files, downloaded packs and offline files from the app where available, or from your device storage.</p>
+<p>You can clear local app data through Android system settings.</p>
+<p>You can uninstall the app to remove app-managed local data from the device. Files stored outside the app’s private storage may need to be deleted manually.</p>
+<p>You can control app permissions, including location, notifications, Bluetooth/nearby devices and other permissions, through Android system settings.</p>
+<p>SeaPilotApp does not create user accounts, so there is no SeaPilotApp account deletion process.</p>
+<h2>11. Children’s privacy</h2>
+<p>SeaPilotApp is not intended for children under 13. The app is intended for marine navigation-related use by competent users.</p>
+<h2>12. Security</h2>
+<p>SeaPilotApp processes most navigation data locally on the device. You should only connect the app to AIS/NMEA sources, Bluetooth devices and network equipment that you trust.</p>
+<p>No mobile application or network transmission can be guaranteed to be completely secure. You should use appropriate operational judgement when using any navigation aid.</p>
+<h2>13. Changes to this Privacy Policy</h2>
+<p>We may update this Privacy Policy from time to time. When changes are made, the effective date will be updated.</p>
+<h2>14. Contact</h2>
+<p>If you have questions about this Privacy Policy, contact:</p>
+<p><strong>seapilotapp@gmail.com</strong></p>
 </body>
 </html>
